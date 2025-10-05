@@ -55,7 +55,7 @@ const Experience = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Professional <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Experience</span>
+            Professional <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Experience</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             My journey building impactful web applications
@@ -65,7 +65,8 @@ const Experience = () => {
             {experiences.map((exp, index) => (
               <Card 
                 key={index}
-                className="gradient-card shadow-soft border-0 transition-smooth hover:shadow-glow"
+                className="gradient-card shadow-soft border-0 transition-smooth hover:shadow-glow animate-in fade-in duration-700"
+                style={{ animationDelay: `${index * 150}ms` }}
               >
                 <CardContent className="p-6 md:p-8">
                   <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 mb-6">
@@ -85,9 +86,9 @@ const Experience = () => {
                   <div className="space-y-3">
                     <h4 className="font-semibold text-primary">Key Accomplishments:</h4>
                     <ul className="space-y-2">
-                      {exp.highlights.map((highlight, hIndex) => (
-                        <li key={hIndex} className="flex items-start text-muted-foreground">
-                          <span className="text-accent mr-2 mt-1.5">▸</span>
+                       {exp.highlights.map((highlight, hIndex) => (
+                        <li key={hIndex} className="flex items-start text-muted-foreground transition-smooth hover:translate-x-1">
+                          <span className="text-primary mr-2 mt-1.5">▸</span>
                           <span>{highlight}</span>
                         </li>
                       ))}

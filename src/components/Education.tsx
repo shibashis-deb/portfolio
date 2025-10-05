@@ -7,13 +7,13 @@ const Education = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Education</span>
+            <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Education</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             Academic background and achievements
           </p>
 
-          <Card className="gradient-card shadow-soft border-0">
+          <Card className="gradient-card shadow-soft border-0 animate-in fade-in duration-1000">
             <CardContent className="p-8 md:p-10">
               <div className="flex flex-col md:flex-row md:items-start gap-6">
                 <div className="flex-shrink-0">
@@ -33,7 +33,7 @@ const Education = () => {
                   </div>
 
                   <div className="flex items-center gap-3 bg-primary/5 rounded-lg px-4 py-3 w-fit">
-                    <Award className="h-5 w-5 text-accent" />
+                    <Award className="h-5 w-5 text-primary" />
                     <span className="font-semibold">CGPA: <span className="text-primary">9.13 / 10</span></span>
                   </div>
 
@@ -63,7 +63,7 @@ const Education = () => {
 
           {/* Additional initiatives */}
           <div className="mt-8 grid md:grid-cols-2 gap-6">
-            <Card className="gradient-card shadow-soft border-0">
+            <Card className="gradient-card shadow-soft border-0 transition-smooth hover:scale-105 animate-in fade-in duration-1000" style={{ animationDelay: "200ms" }}>
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
                   <span className="text-2xl">🤖</span>
@@ -76,7 +76,7 @@ const Education = () => {
               </CardContent>
             </Card>
 
-            <Card className="gradient-card shadow-soft border-0">
+            <Card className="gradient-card shadow-soft border-0 transition-smooth hover:scale-105 animate-in fade-in duration-1000" style={{ animationDelay: "300ms" }}>
               <CardContent className="p-6">
                 <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
                   <span className="text-2xl">💻</span>

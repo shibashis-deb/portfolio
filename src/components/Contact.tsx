@@ -35,13 +35,13 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Get In <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Touch</span>
+            Get In <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             Let&apos;s discuss your next project or opportunity
           </p>
 
-          <Card className="gradient-card shadow-soft border-0">
+          <Card className="gradient-card shadow-soft border-0 animate-in fade-in duration-1000">
             <CardContent className="p-8 md:p-12">
               <div className="grid md:grid-cols-2 gap-6">
                 {contactInfo.map((contact, index) => {
@@ -49,7 +49,7 @@ const Contact = () => {
                   return (
                     <div 
                       key={index}
-                      className="flex items-start gap-4 p-4 rounded-lg bg-background/50 transition-smooth hover:bg-background/70"
+                      className="flex items-start gap-4 p-4 rounded-lg bg-background/50 transition-smooth hover:bg-background/70 hover:scale-105"
                     >
                       <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                         <Icon className="h-6 w-6 text-primary" />
