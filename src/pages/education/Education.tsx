@@ -60,34 +60,6 @@ const Education = () => {
               </div>
             </CardContent>
           </Card>
-
-          {/* Additional initiatives */}
-          <div className="mt-8 grid md:grid-cols-2 gap-6">
-            <Card className="gradient-card shadow-soft border-0 transition-smooth hover:scale-105 animate-in fade-in duration-1000" style={{ animationDelay: "200ms" }}>
-              <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
-                  <span className="text-2xl">🤖</span>
-                  AI Exploration
-                </h3>
-                <p className="text-muted-foreground">
-                  Managed and collaborated with a team in developing React-based AI chatbot and training applications, 
-                  guiding through technical challenges for successful delivery.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="gradient-card shadow-soft border-0 transition-smooth hover:scale-105 animate-in fade-in duration-1000" style={{ animationDelay: "300ms" }}>
-              <CardContent className="p-6">
-                <h3 className="text-lg font-semibold mb-2 flex items-center gap-2">
-                  <span className="text-2xl">💻</span>
-                  Open-Source Contribution
-                </h3>
-                <p className="text-muted-foreground">
-                  Active contributor to open-source projects, sharing knowledge and collaborating with the developer community.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
         </div>
       </div>
     </section>
