@@ -1,10 +1,10 @@
-const About = () => {
+export const About = () => {
   return (
     <section id="about" className="py-20 md:py-32">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-            About <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Me</span>
+            About <span className="bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">Me</span>
           </h2>
           
           <div className="gradient-card rounded-2xl p-8 md:p-12 shadow-soft space-y-6 animate-in fade-in duration-1000">
@@ -57,5 +57,3 @@ const About = () => {
     </section>
   );
 };
-
-export default About;

@@ -55,7 +55,7 @@ const Experience = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Professional <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Experience</span>
+            Professional <span className="bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">Experience</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             My journey building impactful web applications

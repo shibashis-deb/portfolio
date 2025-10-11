@@ -35,7 +35,7 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-            Get In <span className="bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">Touch</span>
+            Get In <span className="bg-gradient-to-r from-primary to-primary bg-clip-text text-transparent">Touch</span>
           </h2>
           <p className="text-center text-muted-foreground mb-12 text-lg">
             Let&apos;s discuss your next project or opportunity
