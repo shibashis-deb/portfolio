@@ -23,14 +23,12 @@ export const Header = () => {
               </span>
             </h1>
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-muted-foreground">
-              Full Stack Web Developer
+              Full Stack <span className="text-primary">Developer</span>
             </h2>
           </div>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-            Crafting scalable web applications with React, Angular, and modern
-            backend technologies. Specialized in performance optimization and
-            enterprise-grade solutions.
+            Crafting scalable enterprise applications with React, Angular, and Node.js. Expert in AWS serverless architectures, microfrontend design, and performance optimization.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
